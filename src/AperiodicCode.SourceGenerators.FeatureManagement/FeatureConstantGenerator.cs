@@ -13,7 +13,7 @@ public class FeatureConstantGenerator : IIncrementalGenerator
         try
         {
             var settingsFiles = context.AdditionalTextsProvider.Where(
-                static file => file.Path.Equals("appsettings.json", StringComparison.OrdinalIgnoreCase)
+                static file => file.Path.EndsWith("appsettings.json", StringComparison.OrdinalIgnoreCase)
             );
 
             // generate a class that contains their values as const strings
