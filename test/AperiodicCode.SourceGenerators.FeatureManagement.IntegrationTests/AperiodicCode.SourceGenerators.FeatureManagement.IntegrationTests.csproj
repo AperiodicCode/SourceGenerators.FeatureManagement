@@ -20,7 +20,7 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
-    <PackageReference Update="Verify.XUnit" Version="20.5.1" />
+    <PackageReference Update="Verify.XUnit" Version="20.6.0" />
   </ItemGroup>
 
 </Project>
